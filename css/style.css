@@ -9,12 +9,14 @@
     --background-header-card: var(--background-navbar);
     --header-title-card: #fff;
     --border-card: var(--background-header-card);
+    --color-text-all: #000;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: var(--background-page);
+    color: var(--color-text-all);
 }
 
 * {
@@ -23,14 +25,12 @@ body {
 }
 
 .dark-mode-root {
-    --background-page: #fff;
-    --background-navbar: #c0392b;
-    --color-navbar: #fff;
-    --color-navbar-icon: #A6BF3D;
-    --color-title: #000;
-    --color-text: #212529;
-    --background-card: #fff;
+    --background-page: #353b48;
+    --background-navbar: #2f3640;
+    --color-title: #fff;
+    --color-text-all: #dcdde1;
+    --background-card: #718093;
+    --color-text: #dcdde1;
     --background-header-card: var(--background-navbar);
-    --header-title-card: #fff;
     --border-card: var(--background-header-card);
 }
