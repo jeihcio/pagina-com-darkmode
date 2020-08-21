@@ -5,6 +5,7 @@ body {
 
 * {
     font-family: "Segoe UI";
+    box-sizing: border-box;
 }
 
 :root {
@@ -23,7 +24,8 @@ body {
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
 }
