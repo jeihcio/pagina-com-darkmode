@@ -17,6 +17,7 @@ body {
     padding: 0;
     background-color: var(--background-page);
     color: var(--color-text-all);
+    transition: all 1s;
 }
 
 * {
