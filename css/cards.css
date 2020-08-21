@@ -1,0 +1,60 @@
+.cards-examples {
+    width: 100%;
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: var(--background-card);
+    border: 1px solid var(--border-card);
+    border-radius: 5px;
+    width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card header {
+    background-color: var(--background-header-card);
+    padding: 10px 0;
+}
+
+.card header>h1 {
+    text-align: center;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--header-title-card);
+    text-transform: uppercase;
+}
+
+.card main>p {
+    color: var(--color-text);
+    padding: 0 10px;
+    text-align: center;
+}
+
+.card main .icon {
+    text-align: center;
+    display: block;
+    font-size: 60px;
+}
+
+.card footer>button {
+    margin: 10px;
+    width: calc(100% - 20px);
+    padding: 10px 0;
+    background-color: var(--background-card);
+    border-radius: 5px;
+    border: 1px solid var(--border-card);
+    font-size: 16px;
+    outline: none;
+}
+
+.card footer>button:hover {
+    cursor: pointer;
+    background-color: var(--background-header-card);
+    color: var(--header-title-card);
+}
