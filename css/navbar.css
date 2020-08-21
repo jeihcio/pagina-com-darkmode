@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     font-size: 18px;
+    color: var(--color-navbar);
 }
 
 .navbar>section {
@@ -17,7 +18,8 @@
     color: var(--color-navbar-icon);
 }
 
-.navbar a {
+.navbar a,
+.navbar label {
     color: var(--color-navbar);
     text-decoration: none;
 }
@@ -34,6 +36,28 @@
     font-size: 16px;
 }
 
-.navbar ul>li:hover {
+.navbar a:hover {
     text-decoration: underline;
+}
+
+.navbar label {
+    text-transform: uppercase;
+}
+
+.navbar label:hover {
+    cursor: pointer;
+}
+
+.navbar #darkmode {
+    display: none;
+}
+
+.navbar #darkmode:checked+.darkmode-label::after {
+    content: ' On';
+    display: inline;
+}
+
+.navbar .darkmode-label::after {
+    content: ' Off';
+    display: inline;
 }
