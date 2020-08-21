@@ -10,7 +10,9 @@ body {
 :root {
     --background-navbar: #c0392b;
     --color-navbar: #fff;
-    --color-icon: #A6BF3D;
+    --color-navbar-icon: #A6BF3D;
+    --color-title: #000;
+    --color-text: #212529;
 }
 
 .main {
@@ -19,5 +21,4 @@ body {
     width: 960px;
     left: 50%;
     transform: translateX(-50%);
-    padding-top: 50px;
 }

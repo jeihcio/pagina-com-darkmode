@@ -1,0 +1,15 @@
+.description {
+    width: 100%;
+    text-align: center;
+}
+
+.description header>h1 {
+    font-size: 45px;
+    color: var(--color-title);
+    font-weight: 300;
+}
+
+.description main>p {
+    font-weight: 300;
+    font-size: 18px;
+}
