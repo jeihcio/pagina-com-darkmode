@@ -20,6 +20,10 @@ body {
     --border-card: var(--background-header-card);
 }
 
+.dark-mode-root {
+    --background-navbar: #000;
+}
+
 .main {
     position: absolute;
     display: flex;
