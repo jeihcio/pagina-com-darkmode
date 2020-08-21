@@ -10,12 +10,25 @@ body {
 :root {
     --background-navbar: #c0392b;
     --color-navbar: #fff;
+    --color-icon: #A6BF3D;
 }
 
 .navbar {
     background: var(--background-navbar);
     padding: 10px 50px;
     display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.navbar>section {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .brand>i {
+    color: var(--color-icon);
 }
 
 .navbar a {
@@ -23,12 +36,17 @@ body {
     text-decoration: none;
 }
 
-.navbar>ul {
+.navbar ul {
     list-style-type: none;
     display: flex;
     padding: 0;
+    margin: 0px;
 }
 
-.navbar>ul>li {
-    margin-left: 15px;
+.navbar ul>li {
+    margin-left: 20px;
+}
+
+.navbar ul>li:hover {
+    text-decoration: underline;
 }
