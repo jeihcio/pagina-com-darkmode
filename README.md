@@ -8,3 +8,6 @@ Exemplo de uma página com o botão para ligar/desligar o modo escuro.
 
 ## :floppy_disk: Resultado
 ![image](resultado.jpeg)
+
+## Demonstração
+https://jeihcio.github.io/pagina-com-darkmode/
